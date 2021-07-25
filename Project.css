@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1551214012-84f95e060dee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 350%;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	
+	img {
+		width: ;
+		height: 100%;
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
+.about pre{
+	font-size: 24px;
+	color:white;
+}
+.about h1{
+	color: white;
+}
+.about h6{
+	color:white;
+	font-size: 20px;
+	align: right;
+}
+.signinAndUp a{
+	color:blue;
+	border:none;
+}
+.signinAndUp h3{
+	color: white;
+	margin:0%;
+	padding: 0%;
+	border:0%;
+
+}
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+.myDIV h3{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin:5% ;
+
+}
+
+.dropbtn {
+  background-color: #097999;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffc1ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #d09ddb;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #15afaf;}
+
+.Step1 input{
+	width:50%;
+	height:40px;
+	background-color: #eae5e5;
+	padding:10px;
+	margin:20px;
+	font-size: 16px;
+}
+.Step1 p{
+	font-size: 30px;
+	padding: 10px;
+	color:white;
+
+
+
+}
+.Step1 h2{
+	text-align: center;
+	padding: 10px;
+	color:#91ff89;
+	font-size: 30px;
+}
+.PostAJob header{
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+form{
+	align-self: center;
+}
+.Step1 h3{
+	text-align:center;
+	padding: 10px;
+	color:white;
+	font-size: 20px;
+}
+.Step1 select{
+	text-align:center;
+	padding: 10px;
+	border:10px;
+	margin: 10px;
+
+}
+textarea{
+	background-color: #eae5e5;
+	padding:10px;
+	width: 798px; 
+	height: 179px;
+	font-size: 16px;
+	font-family: Arial;
+	border:2px solid black;
+}
+h4{
+	text-align: left;
+	font-size: 30px;
+	padding: 20px;
+}
+.Step1 a{
+	color:white;
+}
+button{
+	background-color: #ffb600; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.FreeLancer header{
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.FreeLancer1 h2{
+	text-align: center;
+	padding: 10px;
+	color:#91ff89;
+	font-size: 30px;
+	border:3px solid #f2bf2b;
+	padding:10px;
+	margin:10px;
+
+}
+.FreeLancer1 a{
+	color:white;
+}
+.FreeLancer1 h3{
+	text-align: center;
+	font-size: 30px;
+	color:#f2bf2b;
+	margin: 10px;
+}
+.FreeLancer1 label{
+	font-size: 20px;
+	color:#91ff89;
+	padding:10px;
+}
+.FreeLancer1 input{
+	width:20%;
+	height:30px;
+	background-color: #eae5e5;
+	padding:10px;
+	margin:20px;
+	font-size: 16px;
+	border:3px solid #91ff89;
+}
+.FreeLancer2 p{
+	font-size: 16px;
+	padding: 5px;
+	color:white;
+}
+.FreeLancer2 input{
+	width:50%;
+	height:40px;
+	background-color: #eae5e5;
+	padding:5px;
+	margin:20px;
+	font-size: 16px;
+}
+.gender label{
+	color:white;
+	padding:2px;
+	font-size: 16px;
+	color: white;
+}
+.gender input{	
+	color:white;
+}
+.table tr{
+	width: 5%;
+	height: 5%;
+}
+

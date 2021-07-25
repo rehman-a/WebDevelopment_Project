@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Post A Job
+	</title>
+	<link rel="stylesheet" type="text/css" href="Project.css">
+</head>
+<div class="PostAJob">
+	<body>		
+		<header>
+	<div class="Step1">
+		<center>
+		<form action="PostAJob.php" method="POST">
+			<h4><a href="AftersignIn.html">Go Back</a></h4>
+			<h2>
+				POST A JOB <br>
+				ACCORDING TO YOUR NEED
+			</h2>
+			<p>
+				Job Title
+			</p>
+			<input type="text" name="JobTitle" class="input-box" placeholder=" Not more than 100 characters" maxlength="100" required="">
+			<p>
+				Job Description
+			</p>
+			<textarea name="description" maxlength="2000" placeholder="Not more than 2000 characters....." required=""></textarea>
+            <br>
+			<p>
+				Extra Information
+			</p>
+			<textarea name="ExtraInformation" maxlength="2000" placeholder="Not more than 2000 characters....." ></textarea>
+            <br>
+
+			<h3>Number of days to complete the Job:</h3>
+			 <select name="Days">
+    <option value="1-3days">1-3 Days</option>
+    <option value="4-7 days">4-7 Days</option>
+    <option value="7-14days">7-14 Days</option>
+    <option value="More Than 14 days">More than 14 Days</option>
+  </select>	
+  <h3>Number of tokens to bid for Job:</h3>
+			 <select name="Tokens">
+    <option value="10 token">10 Tokens</option>
+    <option value="15 token" >15 Tokens</option>
+    <option value="20 tokens" >20 Tokens</option>
+    <option value="25 token" >25 Tokens</option>
+  </select>	
+  <br>
+  <button type="submit" class="PostAJobSubmit" name='submit'>Submit Job</button>
+  <h2></h2>
+  		</form>
+	</center>
+				
+	</div>
+	</header>
+
+</body>
+		
+	
+</div>
+
+</html>
